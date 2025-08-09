@@ -1,0 +1,220 @@
+@font-face {
+  font-family: 'cako';
+  src: url('./fonts/cako.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Guise';
+  src: url('./fonts/Guise.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'gavency';
+  src: url('./fonts/gavency.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+.footer {
+  background: radial-gradient(
+    circle at center,
+    rgba(30, 30, 30, 0.3) 0%,
+    rgba(0, 0, 0, 0.95) 100%
+  );
+  padding: 4rem 2rem 0rem 2rem;
+  color: rgba(255, 255, 255, 0.7);
+  overflow: hidden;
+}
+._content{
+  width:40vh;
+ 
+  /* padding-bottom: .5rem; */
+}
+
+
+.logo-footer{
+  height:3rem;
+  width:3rem;
+  background-image:url("./Rotator.jpg");
+  border-radius: 50%;
+  background-size: cover;
+  background-position: center;
+}
+.footer_para_01{
+  font-family: 'Guise';
+  padding-top: .2rem;
+  margin-bottom: .2rem;
+  font-size:.9rem;
+  font-weight: 700;
+  color: rgba(255, 255, 255, 0.7);
+  transform: translateY(0);
+}
+
+
+.footer-links {
+  font-family: 'Guise';
+  display: flex;
+  gap: 5rem;
+}
+
+#footer_nav_header{
+  font-family: 'cako';
+  color: #fff;
+  margin-bottom: 1.5rem;
+  font-size: .9rem;
+  position: relative;
+  display: inline-block;
+}
+
+.footer_navlinks{
+  padding-left: .2rem;
+  font-size: .9rem;
+}
+
+.footer-nav ul,
+.footer-social ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-nav li,
+.footer-social li {
+  margin-bottom: 0.8rem;
+}
+
+.footer-nav a,
+.footer-social a {
+  color: rgba(255, 255, 255, 0.7);
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer-nav a:hover,
+.footer-social a:hover {
+  color: #646cff;
+}
+.footer_legal_actions{
+  font-size: 1.2rem;
+}
+.footer-bottom {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-top: 2rem;
+  text-align: center;
+  font-size: 0.9rem;
+}
+.svg_image{
+  /* position:relative; */
+width:100%;
+height:15vw;
+overflow:hidden;
+}
+.footer_name{
+  font-family: 'gavency';
+transform: translateY(2.6rem);
+  width: 100%;
+  text-align: center;
+  /* margin:5vw;  */
+  font-size:15vw;
+  background: linear-gradient(to top,  #57564F 2%, #ffffff 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+}
+.footer_legal_actions{
+  display: flex;
+  gap: 1.25rem; 
+}
+.footer-legal a {
+  color: rgba(255, 255, 255, 0.7);
+  text-decoration: none;
+  font-size: clamp(.5rem,1.3vw,.9rem);
+}
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+  .footer-content {
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .footer-links {
+    flex-direction: column;
+    gap: 2rem;
+  }
+}
+
+/* Grid layout for footer content and link groups */
+.footer-content {
+  display: grid;
+  grid-template-columns: 60% 40%;
+  align-items: start;
+  gap: 3rem;
+}
+
+/* Two link groups (Navigation, More) */
+.footer-links {
+  display: flex;
+
+  gap: 5.5rem;
+}
+
+/* Social icons: responsive size + glow hover */
+.logos_about {
+  font-size: clamp(1rem, 1.6vw, 1.25rem);
+  color: rgba(255, 255, 255, 0.85);
+  margin-right: 0.75rem;
+  cursor: pointer;
+  transition: color 0.2s ease, filter 0.2s ease, transform 0.2s ease;
+}
+.logos_about:hover {
+  color: #fff;
+  filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.8));
+  transform: translateY(-1px);
+}
+
+/* Legal row */
+.footer-legal {
+  font-family: 'Guise';
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1.25rem 0 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+
+.footer-legal a:hover {
+  color: #fff;
+  text-shadow: 0 0 8px rgba(255, 255, 255, 0.6);
+}
+
+/* Tablet */
+@media (max-width: 1024px) {
+  .footer-content { grid-template-columns: 1fr; gap: 2rem; }
+  .footer-links {
+    display: flex;
+  
+    gap: 5.5rem;
+  }
+  .footer_para_01{
+    width: 240%;
+  }
+}
+
+/* Mobile */
+@media (max-width: 640px) {
+  .footer-links { grid-template-columns: 1fr; gap: 1.25rem; }
+  .svg_image { display: none; }
+  .footer-legal { flex-direction: column; text-align: center; gap: 0.75rem; }
+  .footer-legal nav { justify-content: center; flex-wrap: wrap; gap: 0.9rem; }
+  .footer_para_01{
+    width: 100%;
+  }
+}

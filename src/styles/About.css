@@ -1,0 +1,178 @@
+@font-face {
+  font-family: 'Guise';
+  src: url('./assets/fonts/Guise.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'cako';
+  src: url('./fonts/cako.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'gavency';
+  src: url('./fonts/gavency.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+.about-section {
+  align-self: center;
+  padding: 8rem 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.about-section::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: radial-gradient(circle at 30% 50%, rgba(100, 108, 255, 0.08), transparent 70%);
+  z-index: -1;
+}
+
+.section-header-about {
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+
+
+.about-subtitle {
+  
+ text-align: center;
+  transform: translateY(85%);
+   font-size:6dvh;
+   background: linear-gradient(to top, #646cff 5%, #ffffff 100%);
+   background-clip: text;
+   -webkit-background-clip: text;
+   color: transparent;
+   -webkit-text-fill-color: transparent;
+   display: inline-block;
+   font-family: 'gavency';
+ /* font-family:"Guise",sans-serif; */
+}
+
+
+
+
+
+.about-content {
+  display: grid;
+  grid-template-columns: 1fr 1.5fr;
+  gap: 4rem;
+  align-items: center;
+}
+
+.about-image {
+  position: relative;
+  top:5rem;
+  
+}
+
+.image-container {
+  position: relative;
+  width: 100%;
+  max-width:clamp(300px, 50vw, 400px);
+  margin: 0 auto;
+  margin-bottom: 4rem;
+}
+
+.image-placeholder {
+  width: 100%;
+  aspect-ratio: 1/1.2;
+background-color: black;
+  border-radius: .8rem;
+  overflow: hidden;
+  position: relative;
+  border: 0.01rem solid rgba(255, 255, 255, 0.8);
+  /* box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2); */
+ 
+  background-size: cover;
+  background-position: center;
+}
+
+.image-decoration {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  bottom: .8rem;
+  right: .6rem;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  /* background-color: #646cff; */
+  background-image: url("/rachitt.png");
+  border-radius: .8rem;
+  background-size: cover;
+  background-position: center;
+  transition: all 0.4s ease;
+  /* z-index: -1; */
+}
+.image-container:hover .image-decoration{
+     transform: scale(1.05) rotate(-4deg);
+}
+.about-text {
+ font-family: "Guise";
+  flex: 1;
+}
+
+.about-intro {
+  font-size: 1.3rem;
+  margin-bottom: 1.5rem;
+  line-height: 1.7;
+  color: rgba(255, 255, 255, 0.9);
+  font-weight: 500;
+  transform:translateY(0)
+}
+
+.highlight-text {
+  background: linear-gradient(to top, #C0BABC 2%, #CD533B 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+  font-family: "gavency";
+}
+
+.about-text p {
+  margin-bottom: 1.2rem;
+  line-height: 1.7;
+  color: rgba(255, 255, 255, 0.7);
+  font-size:clamp(.7rem, 2vw, 1.2rem);
+}
+.logos_about{
+margin: 1rem .5rem;
+cursor: pointer;
+}
+.logos_about:hover{
+  color: #646cff;
+}
+
+
+
+/* Responsive styles */
+@media screen and (max-width: 992px) {
+  .about-content {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+  }
+
+  .about-section{
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  .highlight-text{
+    margin-left:.2rem;
+    margin-top:.2rem;
+  }
+}
+
