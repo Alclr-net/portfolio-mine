@@ -1,7 +1,7 @@
 
 @font-face {
   font-family: 'cako';
-  src: url('./fonts/cako.woff2') format('woff2');
+  src: url('/fonts/cako.woff2') format('woff2');
   font-weight: normal;
   font-style: normal;
 }
@@ -63,7 +63,7 @@
   transition: all 0.3s ease;
   display: flex;
   align-items: center;
-  background-image: url("./Rotator.jpg");
+  background-image: url("/Rotator.jpg");
   background-size: cover;
   background-position: center;
   border-radius: 50%;

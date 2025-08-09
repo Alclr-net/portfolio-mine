@@ -1,18 +1,18 @@
 @font-face {
   font-family: 'cako';
-  src: url('./fonts/cako.woff2') format('woff2');
+  src: url('/fonts/cako.woff2') format('woff2');
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: 'Guise';
-  src: url('./fonts/Guise.woff2') format('woff2');
+  src: url('/fonts/Guise.woff2') format('woff2');
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: 'gavency';
-  src: url('./fonts/gavency.woff2') format('woff2');
+  src: url('/fonts/gavency.woff2') format('woff2');
   font-weight: normal;
   font-style: normal;
 }
