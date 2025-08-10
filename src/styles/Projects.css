@@ -372,12 +372,7 @@ background-image: linear-gradient(to top, #000000 0%, #8A2BE2 100%);
     margin: 0 0.15rem;
   }
 
-  .skill_icons,
-  .skill_img {
-    height: 0.8rem;
-    width: 0.9rem;
-    margin-right: 0.4rem;
-  }
+
 }
 @media screen and (max-width: 1100px) {
   .projects-screenshot-layout {
@@ -489,7 +484,7 @@ background-image: linear-gradient(to top, #000000 0%, #8A2BE2 100%);
   }
 
   .showcase-left {
-    height: 45vh;
+    height: 40vh;
     margin: 0.8rem;
   }
 
@@ -533,12 +528,7 @@ background-image: linear-gradient(to top, #000000 0%, #8A2BE2 100%);
     margin: 0 0.06rem;
   }
 
-  .skill_icons,
-  .skill_img {
-    height: 0.5rem;
-    width: 0.5rem;
-    margin-right: 0.2rem;
-  }
+  
   #passionate{
     margin-left:1rem;
     margin-top:1rem;
@@ -600,12 +590,7 @@ background-image: linear-gradient(to top, #000000 0%, #8A2BE2 100%);
     margin: 0 0.06rem;
   }
 
-  .skill_icons,
-  .skill_img {
-    height: 0.6rem;
-    width: 0.6rem;
-    margin-right: 0.15rem;
-  }
+  
 }
 
 /* Landscape orientation for mobile */

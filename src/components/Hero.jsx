@@ -7,7 +7,7 @@ import { IoIosArrowForward } from "react-icons/io";
 const Hero = () => {
   return (
     <section id="home" className="hero-section">
-      <div className="hero-overlay"><div style={{ width: '100%', height: '600px', position: 'relative' }}>
+      <div className="hero-overlay"><div style={{ width: '100%', height: '100vh', position: 'relative', }}>
   <Particles
     particleColors={['#ffffff', '#ffffff']}
     particleCount={200}
@@ -31,12 +31,12 @@ const Hero = () => {
 
         </div>
         <h1 className="hero-title">
-          I design and build websites that
+          I design and build websites to
           <br />
-          make your brand <span className="highlight">stand out.</span>
+          make your brand <span className="highlight">stand out</span>
         </h1>
         <span className="hero-subtitle">
-          Hello👋, I'm Rachit Seth a{" "}
+          Hello, I'm Rachit Seth a{" "}
           <span className="highlight-text_hero">Full-Stack Developer.</span>
         </span>
         <div className="hero-buttons">

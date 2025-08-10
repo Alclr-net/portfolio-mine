@@ -14,16 +14,14 @@ const Projects = () => {
       {/* Project 1 */}
       <div className="projects_header">
         <span className="project-title">The Winning</span>
-     
-          <GradientText
-             colors={['#171738','#2E1760','#3423A6','#7180B9','#DFF3E4']}
-            animationSpeed={5}
-            showBorder={false}
-            className="text-content"
-          >
-            Blueprints
-          </GradientText>
-       
+        <GradientText
+          colors={["#171738", "#2E1760", "#3423A6", "#7180B9", "#DFF3E4"]}
+          animationSpeed={5}
+          showBorder={false}
+          className="text-content"
+        >
+          Blueprints
+        </GradientText>
       </div>
 
       {/* Project 1: Flow */}
@@ -56,35 +54,43 @@ const Projects = () => {
           <div className="tech-stack">
             <div className="stack-badges">
               <span className="stack-badge">
-                <img src="./next.svg" alt="Next JS" className="skill_icons" />
+                <img src="./next.svg" alt="Next JS" className="skill_img" />
                 Next JS
               </span>
               <span className="stack-badge">
-                <img src="./react.svg" alt="React" className="skill_icons" />
+                <img src="./react.svg" alt="React" className="skill_img" />
                 React
               </span>
               <span className="stack-badge">
-                <img src="./tailwindcss.svg" alt="TailwindCSS" className="skill_icons" />
+                <img
+                  src="./tailwindcss.svg"
+                  alt="TailwindCSS"
+                  className="skill_img"
+                />
                 Tailwind
               </span>
               <span className="stack-badge">
-                <img src="./typescript.svg" alt="TypeScript" className="skill_icons" />
+                <img
+                  src="./typescript.svg"
+                  alt="TypeScript"
+                  className="skill_img"
+                />
                 TypeScript
               </span>
               <span className="stack-badge">
-                <img src="./redux.svg" alt="Redux" className="skill_icons" />
+                <img src="./redux.svg" alt="Redux" className="skill_img" />
                 Redux
               </span>
               <span className="stack-badge">
-                <img src="./mysql.svg" alt="SQL" className="skill_icons" />
+                <img src="./mysql.svg" alt="SQL" className="skill_img" />
                 MySQL
               </span>
               <span className="stack-badge">
-                <img src="./express.svg" alt="Express" className="skill_icons" />
+                <img src="./express.svg" alt="Express" className="skill_img" />
                 Express
               </span>
               <span className="stack-badge">
-                <img src="./docker.svg" alt="Docker" className="skill_icons" />
+                <img src="./docker.svg" alt="Docker" className="skill_img" />
                 Docker
               </span>
             </div>
@@ -97,7 +103,8 @@ const Projects = () => {
         <div className="showcase-left">
           <div className="project-showcase-02">
             <div className="showcase-header">
-              A clean, responsive portfolio for product designer, showcasing his work and design approach.
+              A clean, responsive portfolio for product designer, showcasing his
+              work and design approach.
             </div>
             <div
               className="showcase-image-placeholder-1"
@@ -124,19 +131,19 @@ const Projects = () => {
           <div className="tech-stack">
             <div className="stack-badges">
               <span className="stack-badge">
-                <img src="./framer.svg" alt="framer" className="skill_icons" />
+                <img src="./framer.svg" alt="framer" className="skill_img" />
                 Framer
               </span>
               <span className="stack-badge">
-                <img src="./darkgreen.svg" alt="aws" className="skill_icons" />
+                <img src="./darkgreen.svg" alt="aws" className="skill_img" />
                 Mongo DB
               </span>
               <span className="stack-badge">
-                <img src="./figma.svg" alt="figma" className="skill_icons" />
+                <img src="./figma.svg" alt="figma" className="skill_img" />
                 Figma
               </span>
               <span className="stack-badge">
-                <img src="./linux.svg" alt="linux" className="skill_icons" />
+                <img src="./linux.svg" alt="linux" className="skill_img" />
                 Linux
               </span>
             </div>
@@ -149,7 +156,8 @@ const Projects = () => {
         <div className="showcase-left">
           <div className="project-showcase-03">
             <div className="showcase-header">
-            A clean, responsive portfolio for Myself, showcasing projects, technical expertise, and problem-solving approach.
+              A clean, responsive portfolio for Myself, showcasing projects,
+              technical expertise, and problem-solving approach.
             </div>
             <div
               className="showcase-image-placeholder-2"
@@ -161,40 +169,46 @@ const Projects = () => {
           <div className="project-details">
             <h2 className="projectName03">My Developer Portfolio</h2>
             <p>
-      A modern and performance-driven portfolio website created to showcase my technical skills, project work, and development style. Designed with clarity, speed, and responsiveness in mind, this site also acts as a real-world demonstration of my ability to design and deploy production-ready web experiences.
+              A modern and performance-driven portfolio website created to
+              showcase my technical skills, project work, and development style.
+              Designed with clarity, speed, and responsiveness in mind, this
+              site also acts as a real-world demonstration of my ability to
+              design and deploy production-ready web experiences.
             </p>
           </div>
           <div className="tech-stack">
             <div className="stack-badges">
-            <span className="tech-badge">
-                  <img className="skill_img" src="/clerk.svg"></img>Clerk
-                </span>
-                <span className="stack-badge">
-                  <img className="skill_img" src="/tailwindcss.svg"></img>
-                  Tailwind
-                </span>
-                <span className="stack-badge">
-                  <img className="skill_img" src="/framer.svg"></img>Motion
-                </span>
-              
-                <span className="stack-badge">
-                  <img className="skill_img" src="/darkgreen.svg"></img>Mongo DB
-                </span>
-              
+              <span className="tech-badge">
+                <img className="skill_img" src="/clerk.svg"></img>Clerk
+              </span>
               <span className="stack-badge">
-                <img src="./react.svg" alt="react" className="skill_icons" />
+                <img className="skill_img" src="/tailwindcss.svg"></img>
+                Tailwind
+              </span>
+              <span className="stack-badge">
+                <img className="skill_img" src="/framer.svg"></img>Motion
+              </span>
+              <span className="stack-badge">
+                <img className="skill_img" src="/darkgreen.svg"></img>Mongo DB
+              </span>
+              <span className="stack-badge">
+                <img src="./react.svg" alt="react" className="skill_img" />
                 React
               </span>
               <span className="stack-badge">
-                <img src="./express.svg" alt="express" className="skill_icons" />
+                <img src="./express.svg" alt="express" className="skill_img" />
                 Express
               </span>
               <span className="stack-badge">
-                <img src="./redux.svg" alt="redux" className="skill_icons" />
+                <img src="./redux.svg" alt="redux" className="skill_img" />
                 Redux
               </span>
               <span className="stack-badge">
-                <img src="./typescript.svg" alt="linux" className="skill_icons" />
+                <img
+                  src="./typescript.svg"
+                  alt="linux"
+                  className="skill_img"
+                />
                 TypeScript
               </span>
             </div>
@@ -206,6 +220,3 @@ const Projects = () => {
 };
 
 export default Projects;
-
-
-
