@@ -178,7 +178,7 @@ const Projects = () => {
           </div>
           <div className="tech-stack">
             <div className="stack-badges">
-              <span className="tech-badge">
+              <span className="stack-badge">
                 <img className="skill_img" src="/clerk.svg"></img>Clerk
               </span>
               <span className="stack-badge">

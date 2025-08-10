@@ -31,9 +31,7 @@ const Hero = () => {
 
         </div>
         <h1 className="hero-title">
-          I design and build websites to
-          <br />
-          make your brand <span className="highlight">stand out</span>
+        I help brands bring visions to life through flawless <span className="highlight">digital experiences.</span>
         </h1>
         <span className="hero-subtitle">
           Hello, I'm Rachit Seth a{" "}
